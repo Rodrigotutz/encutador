@@ -12,7 +12,7 @@ abstract class Controller {
 
     public function __construct($router){
         $this->router = $router;
-        $this->view =  new Engine(dirname(__DIR__, 1)."\Views", "php");
+        $this->view =  new Engine(__DIR__ . "/../Views/", "php");
         $this->error();
         $this->view->addData([
             "router" => $router,
