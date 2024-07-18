@@ -1,9 +1,9 @@
 # Encurtador de URL feito com PHP
 
-    1 - É necessário instalar as dependências
+1 - É necessário instalar as dependências
     
-    ```shell
-        composer install
-    ```
+```shell
+    composer install
+```
 
-    2 - Após isso renomeie o arquivo .env.examplo para .env e informa as variáveis do seu ambiente
+2 - Após isso renomeie o arquivo .env.examplo para .env e informa as variáveis do seu ambiente
